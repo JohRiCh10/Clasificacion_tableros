@@ -4,7 +4,7 @@
 
 ### Paso 1: Fork del Repositorio Original
 
-En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto original (https://github.com/lcajachahua/model-credit) y dé click al botón "Fork". Esto copiará todo el proyecto en su usuario de Github.
+En el navegador, inicie sesión en Github. Luego, vaya al enlace del proyecto original (https://github.com/JohRiCh10/Clasificacion_tableros) y dé click al botón "Fork". Esto copiará todo el proyecto en su usuario de Github.
 
 
 ### Paso 2: Levantar el contenedor de Python
@@ -27,14 +27,14 @@ git config --global user.email <CORREO>
 ### Paso 4: Clonar el Proyecto desde su propio Github
 
 ```
-git clone https://github.com/<USER>/model-credit.git
+git clone https://github.com/<USER>/Clasificacion_tableros.git
 ```
 
 
 ### Paso 5: Instalar los pre-requisitos
 
 ```
-cd model-credit/
+cd Clasificacion_tableros/
 
 pip install -r requirements.txt
 ```
@@ -45,13 +45,11 @@ pip install -r requirements.txt
 ```
 cd src
 
-python make_dataset.py
+python 1.Generar_data.py
 
-python train.py
+python 2.CreacionModeloyEntrenamiento.py
 
-python evaluate.py
-
-python predict.py
+python 3.Clasificacion.py
 
 cd ..
 ```
