@@ -1,4 +1,4 @@
-# Ejecución de Tests Funcionales del Modelo de Crédito
+# Ejecución de Tests Funcionales de la Clasificación de tableros
 
 ### Paso 0: Ingrese al Escritorio remoto
 
